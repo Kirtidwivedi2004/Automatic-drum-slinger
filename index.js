@@ -4,7 +4,11 @@ var allButtons = document.querySelectorAll("button");
 // function that plays the sound of the button pressed
 function makeSound(key) {
   switch (key) {
-    case "w":
+    case "w1":
+      var audioCrash = new Audio("sounds/crash.mp3");
+      audioCrash.play();
+      break;
+      case "w2":
       var audioCrash = new Audio("sounds/crash.mp3");
       audioCrash.play();
       break;
